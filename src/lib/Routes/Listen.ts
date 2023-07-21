@@ -17,8 +17,8 @@ interface wsWithHeartbeat extends ws {
 }
 
 // seconds
-const NOTIFICATIONS_POLL_BACKLOG_LIFETIME = 10;
-const NOTIFICATIONS_POLL_LISTENERS_MEASURE_INTERVAL = 60;
+const NOTIFICATIONS_POLL_BACKLOG_LIFETIME = 30;
+const NOTIFICATIONS_POLL_LISTENERS_MEASURE_INTERVAL = 10.5;
 
 function listenAPI() {
 	const listenAPIRouter = express.Router();
